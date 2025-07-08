@@ -3,14 +3,27 @@ import { useRef, useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
 import "react-toastify/dist/ReactToastify.css"
 import emailjs from '@emailjs/browser'
+import ReCAPTCHA from 'react-google-recaptcha'
 
 const Contact = () => {
 
   const form = useRef();
+  const captchaRef = useRef(null);
+  const [isVerified, setIsVerified] = useState(false);
   const [isSent,setIsSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    const token = captchaRef.current.getValue();
+    if (!token) {
+      toast.error("Please verify you are not a robot.", {
+        position: "top-right",
+        autoClose: 3000,
+        theme: 'dark',
+      });
+      return;
+    }
 
     emailjs
     .sendForm(
@@ -21,6 +34,9 @@ const Contact = () => {
     )
     .then(
       () => {
+        captchaRef.current.reset(); // clear captcha after submit
+        form.current.reset(); // reset form fields
+        setIsVerified(false); // reset verified state
         setIsSent(true);
         form.current.reset();//Reset form fields after sending
         toast.success("Message Sent SuccessFully! ✅",{
@@ -86,6 +102,14 @@ const Contact = () => {
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500">
           </textarea>
+
+          {/* reCAPTCHA here */}
+          <ReCAPTCHA
+            ref={captchaRef}
+            sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
+            onChange={() => setIsVerified(true)}
+          />
+
           {/* Send Button */}
           <button
             type="submit"
