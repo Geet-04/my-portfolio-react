@@ -1,5 +1,5 @@
-import React from 'react'
-import { education} from "../../constants";
+import React from "react";
+import { education } from "../../constants";
 
 const Education = () => {
   return (
@@ -12,7 +12,8 @@ const Education = () => {
         <h2 className="text-4xl font-bold text-white">EDUCATION</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          My education has been a journey of learning and development. Here are the details of my academic background
+          My education has been a journey of learning and development. Here are
+          the details of my academic background
         </p>
       </div>
 
@@ -76,7 +77,7 @@ const Education = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Education
+export default Education;
