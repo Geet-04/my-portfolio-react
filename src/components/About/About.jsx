@@ -1,9 +1,9 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import Tilt from 'react-parallax-tilt'
+import profileImage from '../../assets/profileImage/profile1.png';
 
 const About = () => {
-  const profileImage = import.meta.env.VITE_PROFILE_IMAGE1;
 
   return (
     <section
@@ -73,7 +73,7 @@ const About = () => {
           transitionSpeed={1000}
           gyroscope={true}
           >
-          <img src={import.meta.env.VITE_PROFILE_IMAGE1} alt="Geetanjali Sahu"
+          <img src={ profileImage } alt="Geetanjali Sahu"
           className='w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,.5)]'
           />
         </Tilt>
