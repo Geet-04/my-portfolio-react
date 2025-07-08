@@ -27,7 +27,7 @@ import rajendraJrCollegeLogo from "./assets/education_logo/rajendraJrCollege_log
 // Project Section Logo's
 import restCountryAPILogo from "./assets/work_logo/restCountryAPI.png";
 import homepageLogo from "./assets/work_logo/homepage.PNG";
-import tazzaFoodAppLogo from "./assets/work_logo/tazzafoodapp.png";
+import tazzaFoodAppLogo from "./assets/work_logo/tazzaFoodapp.png";
 import myntraCloneLogo from "./assets/work_logo/myntraCloneApp.png";
 import personalPortfolioLogo from "./assets/work_logo/personalPortfolio.png";
 
