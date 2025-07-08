@@ -26,7 +26,7 @@ import rajendraJrCollegeLogo from "./assets/education_logo/rajendraJrCollege_log
 
 // Project Section Logo's
 import restCountryAPILogo from "./assets/work_logo/restCountryAPI.png";
-import homepageLogo from "./assets/work_logo/homepage.png";
+import homepageLogo from "./assets/work_logo/homepage.PNG";
 import tazzaFoodAppLogo from "./assets/work_logo/tazzafoodapp.png";
 import myntraCloneLogo from "./assets/work_logo/myntraCloneApp.png";
 import personalPortfolioLogo from "./assets/work_logo/personalPortfolio.png";
@@ -179,7 +179,7 @@ export const projects = [
     image: restCountryAPILogo,
     tags: ["React JS", "HTML", "CSS", "API"],
     github: "https://github.com/Geet-04/rest_country_api",
-    webapp: "https://csprep.netlify.app/",
+    webapp: "https://react-restcountriesapi-prod.netlify.app/",
   },
   {
     id: 2,
