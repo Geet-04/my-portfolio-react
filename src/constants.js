@@ -133,10 +133,10 @@ export const projects = [
     image: jobPortalLogo,
     tags: ["MERN", "React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Geet-04/jobportal_2",
-    webapp: "https://jobportal-2-qbmj.onrender.com/",
+    webapp: "https://jobportal-2-qbmj.onrender.com",
   },
   {
-    id: 4,
+    id: 3,
     title: "Myntra Frontend Clone",
     description: "Developed a responsive Myntra Clone website focusing on UI.",
     image: myntraCloneLogo,
@@ -145,7 +145,7 @@ export const projects = [
     webapp: "https://project-clone-frontend-web-ui.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Personal Portfolio",
     description:
       "Designed and developed a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and contact information. Includes smooth navigation, responsive layout, and email functionality with EmailJS and reCAPTCHA integration.",
