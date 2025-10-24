@@ -128,20 +128,20 @@ export const projects = [
   
   {
     id: 2,
-    title: "Personal Portfolio",
-    description:
-      "Designed and developed a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and contact information. Includes smooth navigation, responsive layout, and email functionality with EmailJS and reCAPTCHA integration.",
-    image: personalPortfolioLogo,
-    tags: ["React", "tailwindCSS", "EmailJS", "reCAPTCHA"],
-  },
-  {
-    id: 3,
     title: "Job Portal Web Application",
     description: "Developed a full-stack Job Portal where users can register, apply for jobs, and companies can post openings. Implemented authentication, role-based access, and real-time updates.",
     image: jobPortalLogo,
     tags: ["MERN", "React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Geet-04/jobportal_2",
     webapp: "https://jobportal-2-qbmj.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "Personal Portfolio",
+    description:
+      "Designed and developed a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and contact information. Includes smooth navigation, responsive layout, and email functionality with EmailJS and reCAPTCHA integration.",
+    image: personalPortfolioLogo,
+    tags: ["React", "tailwindCSS", "EmailJS", "reCAPTCHA"],
   },
   {
     id: 4,
