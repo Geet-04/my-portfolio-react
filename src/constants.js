@@ -27,7 +27,7 @@ import rajendraJrCollegeLogo from "./assets/education_logo/rajendraJrCollege_log
 // Project Section Logo's
 import restCountryAPILogo from "./assets/work_logo/restCountryAPI.png";
 import homepageLogo from "./assets/work_logo/homepage.PNG";
-import tazzaFoodAppLogo from "./assets/work_logo/tazzaFoodapp.png";
+import jobPortalLogo from "./assets/work_logo/tazzaFoodapp.png";
 import myntraCloneLogo from "./assets/work_logo/myntraCloneApp.png";
 import personalPortfolioLogo from "./assets/work_logo/personalPortfolio.png";
 
@@ -125,30 +125,31 @@ export const projects = [
     github: "https://github.com/Geet-04/rest_country_api",
     webapp: "https://react-restcountriesapi-prod.netlify.app/",
   },
+  
   {
     id: 2,
-    title: "Multipage Food Website",
-    description: "Developed a responsive Multipage Food Website",
-    image: tazzaFoodAppLogo,
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Geet-04/MultipageWebsite2",
-    webapp: "https://tazzafoodapp.netlify.app/",
+    title: "Personal Portfolio",
+    description:
+      "Designed and developed a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and contact information. Includes smooth navigation, responsive layout, and email functionality with EmailJS and reCAPTCHA integration.",
+    image: personalPortfolioLogo,
+    tags: ["React", "tailwindCSS", "EmailJS", "reCAPTCHA"],
   },
   {
     id: 3,
+    title: "Job Portal Web Application",
+    description: "Developed a full-stack Job Portal where users can register, apply for jobs, and companies can post openings. Implemented authentication, role-based access, and real-time updates.",
+    image: jobPortalLogo,
+    tags: ["MERN", "React", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/Geet-04/jobportal_2",
+    webapp: "https://jobportal-2-qbmj.onrender.com/",
+  },
+  {
+    id: 4,
     title: "Myntra Frontend Clone",
     description: "Developed a responsive Myntra Clone website focusing on UI.",
     image: myntraCloneLogo,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Geet-04/MyntraCloneUI",
     webapp: "https://project-clone-frontend-web-ui.netlify.app/",
-  },
-  {
-    id: 4,
-    title: "Personal Portfolio",
-    description:
-      "Designed and developed a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and contact information. Includes smooth navigation, responsive layout, and email functionality with EmailJS and reCAPTCHA integration.",
-    image: personalPortfolioLogo,
-    tags: ["React", "tailwindCSS", "EmailJS", "reCAPTCHA"],
   },
 ];
