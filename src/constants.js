@@ -136,14 +136,6 @@ export const projects = [
     webapp: "https://jobportal-2-qbmj.onrender.com/",
   },
   {
-    id: 3,
-    title: "Personal Portfolio",
-    description:
-      "Designed and developed a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and contact information. Includes smooth navigation, responsive layout, and email functionality with EmailJS and reCAPTCHA integration.",
-    image: personalPortfolioLogo,
-    tags: ["React", "tailwindCSS", "EmailJS", "reCAPTCHA"],
-  },
-  {
     id: 4,
     title: "Myntra Frontend Clone",
     description: "Developed a responsive Myntra Clone website focusing on UI.",
@@ -151,5 +143,13 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Geet-04/MyntraCloneUI",
     webapp: "https://project-clone-frontend-web-ui.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Personal Portfolio",
+    description:
+      "Designed and developed a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and contact information. Includes smooth navigation, responsive layout, and email functionality with EmailJS and reCAPTCHA integration.",
+    image: personalPortfolioLogo,
+    tags: ["React", "tailwindCSS", "EmailJS", "reCAPTCHA"],
   },
 ];
