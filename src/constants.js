@@ -11,6 +11,7 @@ import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
+import springbootLogo from "./assets/tech_logo/SpringBoot.png";
 import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import gitLogo from "./assets/tech_logo/git.png";
@@ -50,6 +51,7 @@ export const SkillsInfo = [
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
       { name: "MongoDB", logo: mongodbLogo },
+      { name: "SpringBoot", logo: springbootLogo },
     ],
   },
   {
@@ -125,11 +127,12 @@ export const projects = [
     github: "https://github.com/Geet-04/rest_country_api",
     webapp: "https://react-restcountriesapi-prod.netlify.app/",
   },
-  
+
   {
     id: 2,
     title: "Job Portal Web Application",
-    description: "Developed a full-stack Job Portal where users can register, apply for jobs, and companies can post openings. Implemented authentication, role-based access, and real-time updates.",
+    description:
+      "Developed a full-stack Job Portal where users can register, apply for jobs, and companies can post openings. Implemented authentication, role-based access, and real-time updates.",
     image: jobPortalLogo,
     tags: ["MERN", "React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Geet-04/jobportal_2",
