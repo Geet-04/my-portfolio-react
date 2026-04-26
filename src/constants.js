@@ -11,7 +11,7 @@ import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
-import springbootLogo from "./assets/tech_logo/springboot.png";
+import springbootLogo from "./assets/tech_logo/springboot.PNG";
 import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import gitLogo from "./assets/tech_logo/git.png";
